@@ -1,9 +1,9 @@
 import styled from 'styled-components'
-import { Link as LinkR} from 'react-router-dom'
-import { Link as LinkS } from 'react-scroll'
+import {Link as LinkR} from 'react-router-dom'
+
 
 export const Nav = styled.nav`
-    background:rgb(14,18,23);
+    background:black;
     height:80px;
     //margin-top:-80px;
     display:flex;
@@ -14,7 +14,6 @@ export const Nav = styled.nav`
     top:0;
     z-index:10;
     
-
     @media screen and(max-width:960px){
         transition 0.8s all ease;
     }
@@ -69,47 +68,24 @@ export const NavItem = styled.li`
     height:80px;
     list-style-type: none;
 `;
-export const NavLinks = styled(LinkS)`
+export const NavLinks = styled(LinkR)`
     color:#fff;
     display:flex;
     align-items:center;
     text-decoration:none;
     padding 0 1.3rem;
     height:100%;
+    letter-spacing: .12rem;
     cursor:pointer;
     transition:color 0.2s ease-in-out;
     &:active{
-        border-bottom: 3px solid rgb(255, 212, 84)
+        color:#fff !important;
+        border-bottom: 3px solid gray
     }
     &:hover{
         transition:color 0.2s ease-in-out;
-        color: rgb(255, 212, 84);
+        color: gray;
+        border-bottom: 3px solid gray
     }
 `;    
-export const NavBtn = styled.nav`
-    display:flex;
-    align-items:center;
 
-    @media screen and (max-width:768px){
-        display:none;
-    }
-`
-
-export const NavBtnLink = styled(LinkR)`
-    border-radius:50px;
-    background: rgb(255, 212, 84);
-    white-space:nowrap;
-    padding:10px 22px;
-    color: #010606;
-    font-size:16px;
-    outline:none;
-    border:none;
-    cursor = pointer;
-    transition: background 0.2s ease-in-out;
-    text-decoration:none;
-
-    &:hover{
-        transition:background 0.2s ease-in-out;
-        background: #fff;
-    }
-`

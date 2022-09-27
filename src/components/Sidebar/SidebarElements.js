@@ -7,19 +7,27 @@ export const SidebarContainer = styled.aside`
     z-index:999;
     width:100%;
     height:100%;
-    background:#0d0d0d;
+    background:white;
     display:grid;
     align-items:center;
     top:0;
     left:0;
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in;
     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
     top: ${({ isOpen })=> (isOpen ? '0':'-100%')};
+
 `;
 export const CloseIcon = styled(FaTimes)`
-    color:#fff;
+    color:gray;
+    &:hover{
+        color:black;
+    }
+    &:active{
+        color:black;
+    }
 ` ;
 export const Icon = styled.div`
+    color:black;
     position:absolute;
     top:1.2rem;
     right:1.5rem;
@@ -29,7 +37,7 @@ export const Icon = styled.div`
     outline:none;
 `;
 export const SidebarWrapper = styled.div`
-    color: #fff;
+    color: gray;
 `;
 export const SidebarMenu = styled.ul`
     display: grid;
@@ -39,43 +47,21 @@ export const SidebarMenu = styled.ul`
     @media screen and (max-width: 480px) {
         grid-template-rows: repeat(6, 60px);
     }
+    
 `
-export const SiderbarLink = styled(LinkS)`
+export const SiderbarLink = styled(LinkR)`
     display:flex;
     align-items:center;
     justify-content:center;
     font-size:1.5rem;
-    text-decoration:none;
+    font-weight:600;
+    text-decoration:none !important;
     list-style:none;
     transtion: 200ms ease-in-out;
     cursor:pointer;
-
+    color:gray;
     &:hover{
-        color: rgb(255, 212, 84);
+        color: black;
         transition:200ms ease-in-out;
     }
 `
-export const SideBtnWrap = styled.div`
-    display:flex;
-    justify-content:center;
-
-`
-export const SidebarRoute = styled(LinkR)`
-    border-radius:50px;
-    background: rgb(255, 212, 84);
-    white-space: nowrap;
-    padding: 16px 64px;
-    color: #010606;
-    font-size: 16px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    text-decoration: none;
-
-    &:hover {
-        transition: all 0.2s ease-in-out:
-        background: #fff:
-        color: #010606;
-    }
-`;

@@ -2,8 +2,6 @@ import React from 'react'
 import { 
     SidebarContainer,
     Icon,CloseIcon,
-    SideBtnWrap,
-    SidebarRoute,
     SidebarWrapper,
     SiderbarLink,
     SidebarMenu 
@@ -16,16 +14,13 @@ const Sidebar = ({isOpen,toggle}) => {
         </Icon>
         <SidebarWrapper>
             <SidebarMenu>
-                <SiderbarLink to='about' onClick={toggle}>About</SiderbarLink>
-                <SiderbarLink to='discover' onClick={toggle}>Discover</SiderbarLink>
-                <SiderbarLink to='services' onClick={toggle}>Services</SiderbarLink>
-                <SiderbarLink to='signup' onClick={toggle}>Sign Up</SiderbarLink>
+                <SiderbarLink to='/' onClick={toggle}>Home</SiderbarLink>
+                <SiderbarLink to='/Photo' onClick={toggle}>Photo</SiderbarLink>
+                <SiderbarLink to='/Auto' onClick={toggle}>Auto</SiderbarLink>
+                <SiderbarLink to='/Store' onClick={toggle}>Store</SiderbarLink>
+                <SiderbarLink to='/About' onClick={toggle}>About</SiderbarLink>
             </SidebarMenu>
-        <SideBtnWrap>
-            <SidebarRoute to="/signin">
-                Sign In
-            </SidebarRoute>
-        </SideBtnWrap>
+
         </SidebarWrapper>
     </SidebarContainer>
   )

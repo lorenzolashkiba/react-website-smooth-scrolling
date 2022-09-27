@@ -7,37 +7,33 @@ import {
     MobileIcon,
     NavMenu,
     NavItem,
-    NavLinks,
-    NavBtn,
-    NavBtnLink
+    NavLinks
 } from './NavbarElements';
 const Navbar = ({toggle}) => {
   return (
    <>
     <Nav> 
         <NavbarContainer>
-            <NavLogo to="/">Simons</NavLogo>
+            <NavLogo to="/">LDR</NavLogo>
             <MobileIcon onClick={toggle}> 
                 <FaBars />
             </MobileIcon>
             <NavMenu>
                 <NavItem>
-                    <NavLinks to="about">About</NavLinks>
+                    <NavLinks to="/Photo">Photo</NavLinks>
                 </NavItem>
                 <NavItem>
-                    <NavLinks to="discover">Discover</NavLinks>
+                    <NavLinks to="/Auto">Auto</NavLinks>
                 </NavItem>
                 <NavItem>
-                    <NavLinks to="services">services</NavLinks>
+                    <NavLinks to="/Store">Store</NavLinks>
                 </NavItem>
                 <NavItem>
-                    <NavLinks to="signup">Sign Up</NavLinks>
+                    <NavLinks to="/About">About</NavLinks>
                 </NavItem>
 
             </NavMenu>
-            <NavBtn>
-                <NavBtnLink to="/signin">Sign In</NavBtnLink>
-            </NavBtn>
+        
         </NavbarContainer>
     </Nav>
    </>
