@@ -19,7 +19,7 @@ const HeroSection = () => {
           "The place where the virtual world becomes reality" : " To LTO, together we will distrupt reality" }
         </HeroP>
         <HeroBtnWrapper>
-          <Button to='work'>MY WORK</Button>
+          <Button to='work'>MY WORK1</Button>
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>
