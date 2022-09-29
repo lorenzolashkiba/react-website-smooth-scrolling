@@ -2,25 +2,25 @@ import styled from 'styled-components'
 
 const VIDEOS = [
     {
-        video: require('../../videos/finalVideoWithAudio.mov'),
+        video: require('../../videos/bmwVideoOptimized.mp4'),
         photo: require("../../images/blachole.png"),
         title: "origin",
         link: "/work/origin"
     },
     {
-        video: require('../../videos/finalVideoWithAudio.mov'),
+        video: require('../../videos/bmwVideoOptimized.mp4'),
         photo: require("../../images/blachole.png"),
         title: "origin",
         link: "/work/origin"
     },
     {
-        video: require('../../videos/finalVideoWithAudio.mov'),
+        video: require('../../videos/bmwVideoOptimized.mp4'),
         photo: require("../../images/blachole.png"),
         title: "origin",
         link: "/work/origin"
     },
     {
-        video: require('../../videos/finalVideoWithAudio.mov'),
+        video: require('../../videos/bmwVideoOptimized.mp4'),
         photo: require("../../images/blachole.png"),
         title: "origin",
         link: "/work/origin"
@@ -30,7 +30,7 @@ export default VIDEOS;
 export const VideoContainerBody = styled.div`
     width:100%;
     height:30em;
-    background-color:blue;
+    background-color:black;
     margin-bottom:1em;
     @media screen and (max-width: 768px) {
         margin-bottom:0.5em;

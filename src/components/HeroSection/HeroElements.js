@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Link as LinkS } from 'react-scroll';
+
 export const HeroContainer = styled.div`
     background:black;
     display:flex;
@@ -10,6 +10,7 @@ export const HeroContainer = styled.div`
     position:relative;
     z-index:1;
     font-family:Open sans;
+    background-color:black;
 `
 export const HeroBg = styled.div`
     position: absolute;
@@ -45,6 +46,7 @@ export const HeroContent = styled.div`
     display:flex;
     align-items:center;
     flex-direction:column;
+    z-index:3;
 
 `
 export const HeroH1 = styled.h1`
@@ -71,7 +73,7 @@ export const HeroBtnWrapper = styled.div`
     align-items:center;
     flex-direction:column;
 `
-export const Button = styled(LinkS)`
+export const Button = styled.div`
     cursor:pointer;
     border: 2px solid white;
     padding:0.7em 4em 0.7em 4em;
@@ -84,4 +86,18 @@ export const Button = styled(LinkS)`
         
         }
 
+`
+export const HeroArrow = styled.div`
+    position: absolute;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    height: 100%;
+    align-items: flex-end;
+    z-index:2;
+
+`
+export const ImgArrow = styled.img`
+        margin-bottom:3em;
+        cursor:pointer;
 `

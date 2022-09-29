@@ -8,7 +8,7 @@ function BodyImages
 () {
     const { height, width } = useWindowDimensions();
   return (
-    <>
+    <div id="work">
    
         { 
           VIDEOS.map((obj)=>(
@@ -65,7 +65,7 @@ function BodyImages
         ))
         }
         
-    </>
+    </div>
   )
 }
 

@@ -29,7 +29,7 @@ export const InfoSection = () => (
     <AboutSection
         title="INTRODUCTION" 
         firstSection={
-          <InfoServices>
+          <InfoServices id="about">
             <InfoServicesTitle>Services</InfoServicesTitle>
             <InfoServicesText>Photography</InfoServicesText>
             <InfoServicesText>Cinamatography</InfoServicesText>

@@ -1,8 +1,9 @@
 import React from 'react';
-import Video from '../../videos/finalVideoWithAudio.mov';
-import { HeroBg,HeroContainer,VideoBg,VideoContainer,HeroContent,HeroH1,HeroP,HeroBtnWrapper,Button } from './HeroElements';
+import Video from '../../videos/bmwVideoOptimized.mp4';
+import {HeroArrow,ImgArrow,HeroBg,HeroContainer,VideoBg,VideoContainer,HeroContent,HeroH1,HeroP,HeroBtnWrapper,Button } from './HeroElements';
 import { useWindowDimensions } from '../widthHeightWindow';
-
+import { Link as LinkS } from 'react-scroll';
+import arrow from '../../images/arrow.svg';
 const HeroSection = () => {
   const { height, width } = useWindowDimensions();
   return (
@@ -19,9 +20,17 @@ const HeroSection = () => {
           "The place where the virtual world becomes reality" : " To LTO, together we will distrupt reality" }
         </HeroP>
         <HeroBtnWrapper>
-          <Button to='work'>MY WORK1</Button>
+          <LinkS to="work" spy={true} smooth={true} offset={-100} duration={500} >
+            <Button>MY WORK</Button>
+          </LinkS>
         </HeroBtnWrapper>
+     
       </HeroContent>
+         <HeroArrow>
+          <LinkS to="about" spy={true} smooth={true} offset={-300} duration={500} >
+            <ImgArrow src={arrow} />
+          </LinkS>
+        </HeroArrow>
     </HeroContainer>
   )
 }
