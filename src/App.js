@@ -1,17 +1,21 @@
 import './App.css';
 import Home from './pages';
 import { BrowserRouter, Route,Routes } from 'react-router-dom';
-import Origin from './pages/work/Origin';
+import Work from './pages/Work';
 import About from './pages/About';
 import Store from './pages/Store';
 import Auto from './pages/Auto';
 import Photo from './pages/Photo';
+import VIDEOS from './components/BodyImages/InfoImages';
+
 function App() {
   return (
     <BrowserRouter>
        <Routes>
           <Route path="/" element={<Home />}/>
-          <Route path="/work/Origin" element={<Origin />}/>
+          <Route path="/F12015" element={<Work project={VIDEOS[0]} nextP={VIDEOS[1].link} prevP={VIDEOS[0].link}/>}/>
+          <Route path="/origin" element={<Work project={VIDEOS[1]} nextP={VIDEOS[2].link} prevP={VIDEOS[0].link}/>}/>
+          <Route path="/bmwe36-widebody-kit" element={<Work project={VIDEOS[2]} nextP={VIDEOS[3].link} prevP={VIDEOS[1].link}/>}/>
           <Route path="/About" element={<About />}/>
           <Route path="/Photo" element={<Photo />}/>
           <Route path="/Auto" element={<Auto />}/>

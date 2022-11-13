@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
-
+import {Container} from './styles/StoreElements';
 export default function Store() {
   const [isOpen,setIsOpen] = useState(false)
 
@@ -13,7 +13,9 @@ export default function Store() {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle} />
-      <div>Store</div>
+      <Container>
+        <div>STILL WORKING ON IT</div>
+      </Container>
     </>
 
   )

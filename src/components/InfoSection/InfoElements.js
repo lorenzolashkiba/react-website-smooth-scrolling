@@ -81,11 +81,11 @@ export const InfoContacts = styled.ul`
         width:20em;
     }
 `
-export const InfoContactsTitle = styled.h3`
+export const InfoContactsTitle = styled.p`
     color:gray;
     font-weight: bold;
     padding-bottom:1em;
-    font-size:1.3em;
+    font-size:1.4em;
     @media screen and (max-width: 768px) {
         font-size:1.2em;
     }

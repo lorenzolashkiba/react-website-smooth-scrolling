@@ -100,4 +100,12 @@ export const HeroArrow = styled.div`
 export const ImgArrow = styled.img`
         margin-bottom:3em;
         cursor:pointer;
+        width:100%:
+        height:auto;
+        alt:"arrow linked to about us";
+        @media screen and (max-width: 768px)
+        {   
+            width:50%;
+            margin-left:1.5em;
+        }
 `

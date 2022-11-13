@@ -3,27 +3,53 @@ import styled from 'styled-components'
 const VIDEOS = [
     {
         video: require('../../videos/bmwVideoOptimized.mp4'),
-        photo: require("../../images/blachole.png"),
-        title: "origin",
-        link: "/work/origin"
+        photo: require("../../images/optimizedF1/Formula0.webp"),
+        title: "2015 season F1 ",
+        year: "2022",
+        category: "3D car rendering",
+        link: "/F12015",
+        images:[require("../../images/optimizedF1/Formula1.webp"),
+        require("../../images/optimizedF1/Formula2.webp"),
+        require("../../images/optimizedF1/Formula3.webp"),
+        require("../../images/optimizedF1/Formula4.webp"),
+        require("../../images/optimizedF1/Formula5.webp")],
+        credits: " Lorenzo Lashkiba"
+    },
+    {
+        video: require('../../videos/spaceanima.mp4'),
+        photo: require("../../images/blachole.webp"),
+        title: "ORIGIN",
+        link: "/origin",
+        year: "2021",
+        category: "3D Animation",
+        images:[require("../../images/originImages/shoot6.webp"),
+        require("../../images/originImages/shoot61.webp"),
+        require("../../images/originImages/shoot99.webp")],
+        credits: " Lorenzo Lashkiba"
+    },
+    {
+        video: require('../../videos/redcar.webm'),
+        photo: require("../../images/bmwe36/render2.mov.webp"),
+        title: "BMW E36 widebody kit",
+        link: "/bmwe36-widebody-kit",
+        year: "2022",
+        category: "3D rendering and design",
+        images:[require("../../images/bmwe36/bmwe36-1.webp"),
+        require("../../images/bmwe36/bmw36-2.webp"),
+        require("../../images/bmwe36/bmw36-3.webp"),
+        require("../../images/bmwe36/bmw36-4.webp"),
+        require("../../images/bmwe36/bmw36-5.webp"),
+        require("../../images/bmwe36/bmw36-6.webp"),
+        require("../../images/bmwe36/bmw36-7.webp"),
+        require("../../images/bmwe36/bmw36-8.webp")
+        ],
+        credits: " Lorenzo Lashkiba"
     },
     {
         video: require('../../videos/bmwVideoOptimized.mp4'),
-        photo: require("../../images/blachole.png"),
-        title: "origin",
-        link: "/work/origin"
-    },
-    {
-        video: require('../../videos/bmwVideoOptimized.mp4'),
-        photo: require("../../images/blachole.png"),
-        title: "origin",
-        link: "/work/origin"
-    },
-    {
-        video: require('../../videos/bmwVideoOptimized.mp4'),
-        photo: require("../../images/blachole.png"),
-        title: "origin",
-        link: "/work/origin"
+        photo: require("../../images/blachole.webp"),
+        title: "origin3",
+        link: "/origin"
     }
 ]
 export default VIDEOS;

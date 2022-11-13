@@ -62,12 +62,14 @@ export const NavLinks = styled(LinkR)`
     height:100%;
     letter-spacing: .12rem;
     cursor:pointer;
-    transition:color 0.2s ease-in-out;
+    font-weight:none;
+    transition:all 0.2s ease-in-out;
     &:active{
-        color:#fff !important;
+        color:#fff;
     }
     &:hover{
         transition:color 0.2s ease-in-out;
+        font-weight:bold;
         color: gray;
     }
 `;    
@@ -77,7 +79,6 @@ export const DownBarContainer = styled.nav`
     
     @media screen and (max-width: 768px)
     {   
-        
         margin-top:0;
     }
 `

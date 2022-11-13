@@ -9,11 +9,10 @@ function BodyImages
     const { height, width } = useWindowDimensions();
   return (
     <div id="work">
-   
         { 
           VIDEOS.map((obj)=>(
             <LinkR to={obj.link}>
-                <VideoContainerBody ky={obj.title}>
+                <VideoContainerBody key={obj.title}>
                     <HoverVideoPlayer
                         videoSrc={obj.video}
                         videoStyle = {width > 768 ? {

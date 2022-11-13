@@ -2,7 +2,8 @@ import React, {useState} from 'react'
 import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
 import { AboutSection } from '../components/InfoSection';
-import {InfoServices,InfoServicesTitle } from '../components/InfoSection/InfoElements.js'
+import {InfoServices,InfoServicesTitle } from '../components/InfoSection/InfoElements.js';
+import {Container} from './styles/AutoElements';
 export default function Auto() {
   const [isOpen,setIsOpen] = useState(false)
 
@@ -25,6 +26,9 @@ export default function Auto() {
         </InfoServices>
         }
         />
+      <Container>
+        <div>STILL WORKING ON IT</div>
+      </Container>
     </>
 
   )

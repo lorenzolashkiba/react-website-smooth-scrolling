@@ -10,40 +10,37 @@ import {
 
     } from './FooterElements'
 
-export default function Footer() {
+export default function Footer(props) {
   return (
     <>
-        <TitleH1>BE ALWAYS CREATIVE</TitleH1>
-        <FooterContainer> 
-        
-            <UpBarContainer>
-             
+        <TitleH1 style={{color:props.Bcolor}} >BE ALWAYS CREATIVE</TitleH1>
+        <FooterContainer style={{backgroundColor:props.Bcolor,color:props.Fcolor}}> 
+            <UpBarContainer>   
               <NavMenu>
                 
                   <NavItem>
-                      <NavLinks to="About">About</NavLinks>
+                      <NavLinks style={{color:props.Fcolor}} to="/About">About</NavLinks>
                   </NavItem>
                   <NavItem>
-                      <NavLinks to="Store">Store</NavLinks>
+                      <NavLinks to="/Store" style={{color:props.Fcolor}} >Store</NavLinks>
                   </NavItem>
                   <NavItem>
-                      <NavLinks to="Auto">Auto</NavLinks>
+                      <NavLinks to="/Auto" style={{color:props.Fcolor}} >Auto</NavLinks>
                   </NavItem>
                   <NavItem>
-                      <NavLinks to="Photo">Photo</NavLinks>
+                      <NavLinks to="/Photo" style={{color:props.Fcolor}} >Photo</NavLinks>
                   </NavItem>
-
-                 
+               
               </NavMenu>
             </UpBarContainer>
             <DownBarContainer>
             <NavMenuDown>
                 <NavItemDown>
-                    <Date> © 2022 LTO inc.</Date>
+                    <Date> © 2022 LDR inc.</Date>
                 </NavItemDown>
                 
                 <NavItemDown>
-                    <NavText>info@Lto.om</NavText>
+                    <NavText>info@LDR.com</NavText>
                     <NavText>EU IT</NavText>
                 </NavItemDown>
             </NavMenuDown>

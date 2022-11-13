@@ -6,12 +6,12 @@ import HeroSection from '../components/HeroSection';
 import { InfoSection } from '../components/InfoSection';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
-import Origin from './work/Origin';
+import Work from './Work';
 
 
 const Home = ()=> {
     const [isOpen,setIsOpen] = useState(false)
-
+    //this.props.sendData({link:"hi"});
     const toggle = () => {
         setIsOpen(!isOpen)
     }
@@ -22,9 +22,9 @@ const Home = ()=> {
             <Navbar toggle={toggle} />
             <HeroSection />
             <InfoSection />
-            <BodyImages />
-            <Footer />
-          
+            <BodyImages  />
+            <Footer Bcolor={"black"} Fcolor={"white"}/>
+              
         </>
     );
 };
