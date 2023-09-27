@@ -7,6 +7,7 @@ import arrowBlack from '../images/arrowBlack.svg';
 import {RightArrow,LeftArrow} from './styles/WorkElements';
 import Footer from '../components/Footer';
 import { Link as LinkR} from 'react-router-dom';
+import {VideoBg,VideoContainer} from '../components/Video';
 
 export default function Work(props){
   const [isOpen,setIsOpen] = useState(false)
@@ -32,6 +33,14 @@ export default function Work(props){
         </Title>
         
       </TitleContainer>
+      {
+        
+        props.project.video.endsWith("mp4") == true ?
+        <VideoContainer>
+         <VideoBg autoPlay loop src={ props.project.video1} type='video/mp4'/>
+      </VideoContainer>
+         :  console.log("no-video")
+      }
       <Corousel ListImage={props.project.images} />
      
       <Description>

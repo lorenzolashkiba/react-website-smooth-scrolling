@@ -37,6 +37,7 @@ export const VideoBg = styled.video`
     height:135%;
     -o-object-fit:cover;
     object-fit:cover;
+    opacity:0.3;
 `
 export const HeroContent = styled.div`
     position:absolute;

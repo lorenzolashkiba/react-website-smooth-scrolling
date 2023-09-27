@@ -15,7 +15,7 @@ export function AboutSection(props){
           <InfoContactsText>
           If you have any inquiries or questions and you wish
           to create a project or you need a service, 
-          please contact us at info_contacts@LTO.com
+          please contact me at lorenzoboiko@gmail.com
           </InfoContactsText>
         </InfoContacts>
       </InfoContainer>
@@ -30,7 +30,7 @@ export const InfoSection = () => (
         title="INTRODUCTION" 
         firstSection={
           <InfoServices id="about">
-            <InfoServicesTitle>Services</InfoServicesTitle>
+            <InfoServicesTitle>What i do</InfoServicesTitle>
             <InfoServicesText>Photography</InfoServicesText>
             <InfoServicesText>Cinamatography</InfoServicesText>
             <InfoServicesText>DigitalArt</InfoServicesText>

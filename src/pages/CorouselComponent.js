@@ -22,7 +22,7 @@ export default function Corousel(props){
     }
     useEffect(() => {
 
-        console.log(count);
+
     },[count]);
 
     return (

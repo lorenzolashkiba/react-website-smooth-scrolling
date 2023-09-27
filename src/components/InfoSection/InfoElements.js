@@ -67,7 +67,7 @@ export const InfoServicesTitle = styled.h3`
 export const InfoServicesText = styled.p`
     padding-bottom:0.6em;
     font-size:1.1em;
-    width:60%;
+    width:70%;
     max-width:550px;
     @media screen and (max-width: 768px) {
         padding-bottom:0.3em;
@@ -96,4 +96,22 @@ export const InfoContactsText = styled.p`
     @media screen and (max-width: 768px) {
         font-size:1em;
     } 
+`
+
+export const VideoContainer = styled.div`
+
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+`
+export const VideoBg = styled.video`
+
+    width:100%;
+    height:100%;
+    -o-object-fit:cover;
+    object-fit:cover;
+
 `

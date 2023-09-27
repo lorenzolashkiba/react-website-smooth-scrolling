@@ -1,5 +1,5 @@
 import React from 'react';
-import Video from '../../videos/bmwVideoOptimized.mp4';
+import Video from '../../videos/bmwVideoMov.mp4';
 import {HeroArrow,ImgArrow,HeroBg,HeroContainer,VideoBg,VideoContainer,HeroContent,HeroH1,HeroP,HeroBtnWrapper,Button } from './HeroElements';
 import { useWindowDimensions } from '../widthHeightWindow';
 import { Link as LinkS } from 'react-scroll';
@@ -14,10 +14,10 @@ const HeroSection = () => {
         </VideoContainer>
       </HeroBg>
       <HeroContent>
-        <HeroH1> {width > 768 ? "Welcome to LDR" : "Welcome"} </HeroH1>
+        <HeroH1> {width > 768 ? "Welcome to LBL" : "Welcome"} </HeroH1>
     
         <HeroP>{width > 768 ? 
-          "The place where the virtual world becomes reality" : " To LTO, together we will distrupt reality" }
+          "My virtual portfolio world " : " Together we will distrupt reality" }
         </HeroP>
         <HeroBtnWrapper>
           <LinkS to="work" spy={true} smooth={true} offset={-100} duration={500} >

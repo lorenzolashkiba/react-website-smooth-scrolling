@@ -8,7 +8,7 @@ export const TitleH1 = styled.h1`
     text-align: center;
     font-weight: bold;
     font-size:3em;
-    padding: 3.5em 0 3.5em 0;
+    padding: 3em 0 3em 0;
     @media screen and (max-width: 768px)
     {
         font-size:2em;

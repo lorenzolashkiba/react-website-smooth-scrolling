@@ -17,15 +17,15 @@ export default function About() {
       <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle} />
       <AboutSection 
-        title="ABOUT US" 
+        title="ABOUT ME" 
         anotherSection={
         <InfoServices>
-          <InfoServicesTitle>Director</InfoServicesTitle>
+          <InfoServicesTitle>NAME</InfoServicesTitle>
           <InfoServicesText>Lorenzo Lashkiba</InfoServicesText>
         </InfoServices>}
         firstSection={
               <InfoServices>
-                <InfoServicesTitle>Services</InfoServicesTitle>
+                <InfoServicesTitle>What i do</InfoServicesTitle>
                 <InfoServicesText>Photography</InfoServicesText>
                 <InfoServicesText>Cinamatography</InfoServicesText>
                 <InfoServicesText>DigitalArt</InfoServicesText>
@@ -39,10 +39,10 @@ export default function About() {
          <InfoStory>
           <InfoServicesTitle>Story</InfoServicesTitle>
           <InfoServicesText>
-          LDR  was founded by Lorenzo Lashkiba to collaborate and contribute in the art world and not only, particulary in the Photography, Cinematography, Automotive design and Web design.
-          We offer other services like 3D concepts design and Architecture design.
-          We are always using the latest technology available, we use them to improve our works using AI tech evolving the production concepts,3d models, artworks and particularly the Automotive design.
-          Please contact us at info_contacts@LDR.com to further inquire about our creative services and scheduling availability. 
+          LBL  was founded by Lorenzo Lashkiba to collaborate and contribute in the art world and not only, particulary in the Photography, Cinematography, Automotive design and Web design.
+          I offer services like 3D concepts design and Architecture design.
+          I'm always using the latest technology available, using AI tech evolving the production concepts,3d models, artworks and particularly the Automotive design.
+          Please contact me at lorenzoboiko@gmail.com to further inquire about my creative services and scheduling availability. 
           </InfoServicesText>
         </InfoStory>
 

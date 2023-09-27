@@ -36,11 +36,11 @@ export default function Footer(props) {
             <DownBarContainer>
             <NavMenuDown>
                 <NavItemDown>
-                    <Date> © 2022 LDR inc.</Date>
+                    <Date> © 2023 LBL inc.</Date>
                 </NavItemDown>
                 
                 <NavItemDown>
-                    <NavText>info@LDR.com</NavText>
+                    <NavText>lorenzoboiko@gmail.com</NavText>
                     <NavText>EU IT</NavText>
                 </NavItemDown>
             </NavMenuDown>
