@@ -82,9 +82,10 @@ const VIDEOS = [
         video: require('../../images/NIssanNismo-JPEG/10.webp'),
         photo: require("../../images/NIssanNismo-JPEG/10.webp"),
         video1: require('../../images/NIssanNismo-JPEG/10.webp'),
-        title: "Nissan Nismo GT-R ",
+       
         link: "/NissanNismoGT-R",
         year: "2023",
+        title: "Nissan Nismo GT-R ",
         category: "3D rendering and design",
         images:[require("../../images/NIssanNismo-JPEG/1.jpeg"),
         require("../../images/NIssanNismo-JPEG/2.jpeg"),
@@ -99,7 +100,92 @@ const VIDEOS = [
         require("../../images/NIssanNismo-JPEG/13.jpeg")
         ],
         credits: " Lorenzo Lashkiba"
-    }
+    },
+    {
+        video: require('../../images/foggyVase/untitled11.webp'),
+        photo: require('../../images/foggyVase/untitled11.webp'),
+        video1: require('../../images/foggyVase/untitled11.webp'),
+
+        link: "/foggyVase",
+        year: "2023",
+        title: "Foggy Vase Plant",
+        category: "3D rendering and design",
+        images:[require("../../images/foggyVase/untitled11.jpeg"),
+        require("../../images/foggyVase/untitled6.jpeg"),
+        require("../../images/foggyVase/untitled7.jpeg"),
+        require("../../images/foggyVase/untitled8.jpeg"),
+        require("../../images/foggyVase/untitled9.jpeg"),
+        require("../../images/foggyVase/untitled10.jpeg")
+        
+        ],
+        credits: " Lorenzo Lashkiba"
+    },
+    {
+        video: require('../../images/bathroom/bathroom1-2-Large.webp'),
+        photo: require('../../images/bathroom/bathroom1-2-Large.webp'),
+        video1: require('../../images/bathroom/bathroom1-2-Large.webp'),
+
+        title: "Bathroom",
+        link: "/bathroom",
+        year: "2021",
+        category: "3D Renderings",
+        images:[require("../../images/bathroom/bathroom1-1 Large.jpeg"),
+        require("../../images/bathroom/bathroom1-2 Large.jpeg"),
+        require("../../images/bathroom/bathroom1-3 Large.jpeg"),
+        require("../../images/bathroom/bathroomToiledOpenLid Large.jpeg"),
+        require("../../images/bathroom/bathroomToiletCloseLid Large.jpeg"),
+        
+        ],
+        credits: " Lorenzo Lashkiba"
+    },
+    {
+        video: require('../../videos/porsche360.mp4'),
+        photo: require('../../images/porsche1970/9.jpg'),
+        video1: require('../../videos/porsche360.mp4'),
+
+        title: "Porsche-911 modified exterior",
+        link: "/Porsche-911-exterior",
+        year: "2022",
+        category: "3D Renderings",
+        images:[require('../../images/porsche1970/1.jpg'),
+        require('../../images/porsche1970/2.jpg'),
+        require('../../images/porsche1970/3.jpg'),
+        require('../../images/porsche1970/4.jpg'),
+        require('../../images/porsche1970/5.jpg'),
+        require('../../images/porsche1970/6.jpg'),
+        require('../../images/porsche1970/7.jpg'),
+        require('../../images/porsche1970/8.jpg'),
+        require('../../images/porsche1970/9.jpg'),
+        require('../../images/porsche1970/10.jpg')
+
+        
+        ],
+        credits: " Lorenzo Lashkiba"
+    },
+    {
+        video: require('../../videos/porscheInterior.mp4'),
+        photo: require('../../images/porsche1970/interior7.jpg'),
+        video1: require('../../videos/porscheInterior.mp4'),
+
+        title: "Porsche-911 modified interior",
+        link: "/Porsche-911-interior",
+        year: "2022",
+        category: "3D Renderings",
+        images:[require('../../images/porsche1970/interior1.jpg'),
+        require('../../images/porsche1970/interior2.jpg'),
+        require('../../images/porsche1970/interior3.jpg'),
+        require('../../images/porsche1970/interior4.jpg'),
+        require('../../images/porsche1970/interior5.jpg'),
+        require('../../images/porsche1970/interior6.jpg'),
+        require('../../images/porsche1970/interior7.jpg'),
+        require('../../images/porsche1970/interior8.jpg'),
+        require('../../images/porsche1970/interior9.jpg'),
+        
+
+        
+        ],
+        credits: " Lorenzo Lashkiba"
+    },
 
 ]
 export default VIDEOS;
