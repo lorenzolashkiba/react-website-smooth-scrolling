@@ -15,7 +15,7 @@ const Home = ()=> {
     const toggle = () => {
         setIsOpen(!isOpen)
     }
-
+    document.title = `LBLDesign`;
     return (
         <>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
