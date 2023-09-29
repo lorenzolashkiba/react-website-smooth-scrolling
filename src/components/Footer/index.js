@@ -13,7 +13,7 @@ import {
 export default function Footer(props) {
   return (
     <>
-        <TitleH1 style={{color:props.Bcolor}} >BE ALWAYS CREATIVE</TitleH1>
+        <TitleH1 style={{color:props.Bcolor}} >ALWAYS BE CREATIVE</TitleH1>
         <FooterContainer style={{backgroundColor:props.Bcolor,color:props.Fcolor}}> 
             <UpBarContainer>   
               <NavMenu>
