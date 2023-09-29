@@ -15,7 +15,7 @@ export function AboutSection(props){
           <InfoContactsText>
           If you have any inquiries or questions and you wish
           to create a project or you need a service, 
-          please contact me at lorenzoboiko@gmail.com
+          please contact me at info@lbldesign.it
           </InfoContactsText>
         </InfoContacts>
       </InfoContainer>

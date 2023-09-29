@@ -40,7 +40,7 @@ export default function Footer(props) {
                 </NavItemDown>
                 
                 <NavItemDown>
-                    <NavText>lorenzoboiko@gmail.com</NavText>
+                    <NavText>info@lbldesign.it</NavText>
                     <NavText>EU IT</NavText>
                 </NavItemDown>
             </NavMenuDown>
