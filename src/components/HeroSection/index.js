@@ -17,7 +17,7 @@ const HeroSection = () => {
         <HeroH1> {width > 768 ? "Welcome to LBL" : "Welcome"} </HeroH1>
     
         <HeroP>{width > 768 ? 
-          "My virtual portfolio world " : " Together we will distrupt reality" }
+          "My virtual portfolio world " : " My virtual portfolio world" }
         </HeroP>
         <HeroBtnWrapper>
           <LinkS to="work" spy={true} smooth={true} offset={-100} duration={500} >
