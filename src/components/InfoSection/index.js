@@ -13,7 +13,7 @@ export function AboutSection(props){
         <InfoContacts>
           <InfoContactsTitle>Contacts</InfoContactsTitle>
           <InfoContactsText>
-          If you have any inquiries or questions and you wish
+          I'm Lorenzo and if you have any inquiries or questions and you wish
           to create a project or you need a service, 
           please contact me at info@lbldesign.it
           </InfoContactsText>
