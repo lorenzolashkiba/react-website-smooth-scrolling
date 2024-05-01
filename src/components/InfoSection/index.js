@@ -30,13 +30,13 @@ export const InfoSection = () => (
         title="INTRODUCTION" 
         firstSection={
           <InfoServices id="about">
-            <InfoServicesTitle>What i do</InfoServicesTitle>
-            <InfoServicesText>Photography</InfoServicesText>
-            <InfoServicesText>Cinamatography</InfoServicesText>
-            <InfoServicesText>DigitalArt</InfoServicesText>
-            <InfoServicesText>3D Concepts</InfoServicesText>
+            <InfoServicesTitle>Services</InfoServicesTitle>
+            <InfoServicesText>3D Scans</InfoServicesText>
+            <InfoServicesText>3D Modelling</InfoServicesText>
             <InfoServicesText>Automotive design</InfoServicesText>
-            <InfoServicesText>Architecture design</InfoServicesText>
+            <InfoServicesText>3D Automotive concept designs </InfoServicesText>
+            
+
           </InfoServices>
         }
         />

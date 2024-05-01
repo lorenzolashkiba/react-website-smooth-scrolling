@@ -31,13 +31,14 @@ export const VideoContainer = styled.div`
     justify-content:center;
     
 `
-export const VideoBg = styled.video`
+export const VideoBg = styled.img`
 
     width:135%;
     height:135%;
     -o-object-fit:cover;
     object-fit:cover;
-    opacity:0.3;
+    opacity:0.5;
+    
 `
 export const HeroContent = styled.div`
     position:absolute;
